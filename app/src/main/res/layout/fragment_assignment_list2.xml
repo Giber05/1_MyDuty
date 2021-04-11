@@ -36,7 +36,7 @@
         android:id="@+id/topic"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_gravity="left"
+        android:layout_gravity="start"
         android:gravity="center"
         android:text="Topic" />
 

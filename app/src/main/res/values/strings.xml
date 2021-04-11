@@ -11,4 +11,10 @@
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
     <string name="menu_assignment">Assignment</string>
+    <string name="label_detail">Details</string>
+    <string name="label_description">Description</string>
+    <string name="label_topic">Topic</string>
+    <string name="label_course">Course</string>
+    <string name="label_deadline">Deadline</string>
+    <string name="label_done">Done</string>
 </resources>
