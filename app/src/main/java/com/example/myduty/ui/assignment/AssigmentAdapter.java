@@ -13,6 +13,7 @@ import com.example.myduty.AssignmentDetailAcitivity;
 import com.example.myduty.R;
 import com.example.myduty.ui.assignment.dummy.DummyContent.DummyItem;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -24,10 +25,10 @@ import kotlin.jvm.internal.Intrinsics;
  */
 public class AssigmentAdapter extends RecyclerView.Adapter<AssigmentAdapter.ViewHolder> {
 
-    private final List<Assignment> mValues;
+    private  List<Assignment> mValues;
 
-    public AssigmentAdapter(Assignment[] items) {
-        mValues = Arrays.asList(items);
+    public AssigmentAdapter(ArrayList<Assignment> items) {
+        this.mValues = items;
     }
     public class ViewHolder extends RecyclerView.ViewHolder {
         public final View mView;

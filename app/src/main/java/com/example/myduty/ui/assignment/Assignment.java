@@ -3,7 +3,7 @@ package com.example.myduty.ui.assignment;
 import java.text.SimpleDateFormat;
 import java.util.GregorianCalendar;
 
-public class Assignment {
+public class Assignment implements Comparable {
     private String course;
     private String topic;
     private String deadline;
@@ -47,6 +47,15 @@ public class Assignment {
     public String getDescription() {
         return description;
     }
+
+    @Override
+    public int compareTo(Object o) {
+        int comparePriority=((Assignment)o).getPriority();
+        /* For Ascending order*/
+        return this.priority-comparePriority;
+    }
+
+
 }
 
 
